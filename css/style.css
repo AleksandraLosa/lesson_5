@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,900&display=swap');
+
+
+
+@font-face {
+    font-family: "MonsalGothic";
+    src: url("../fonts/MonsalGothic-Regular.woff2") format("woff2"), url("../fonts/MonsalGothic-Regular.woff") format("woff");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MonsalGothic";
+    src: url("../fonts/MonsalGothic-Medium.woff2") format("woff2"), url("../fonts/MonsalGothic-Medium.woff") format("woff");
+    font-display: swap;
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MonsalGothic";
+    src: url("../fonts/MonsalGothic-Bold.woff2") format("woff2"), url("../fonts/MonsalGothic-Bold.woff") format("woff");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Montserrat;
+}
+
+
+h1 {
+    font-family: MonsalGothic;
+    font-weight: 700;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: blueviolet;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+ul {
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-weight: 500;
+    text-align: center;
+    color:brown;
+    text-transform: uppercase;
+
+}
+
+ul .line-trough {
+    text-decoration: line-through;
+    text-shadow: 1px 1px 5px #000;
+}
+
+ul .underline {
+    text-decoration: underline;
+    text-shadow: 1px 1px 5px #000;
+}
+
+ul .overline {
+    text-decoration: overline;
+    text-shadow: 1px 1px 5px #000;
+}
+
+h2 {
+    font-family: MonsalGothic;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:chocolate;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.title h2 {
+    text-transform: capitalize;
+}
+
+.title p {
+    font-family: MonsalGothic;
+    text-align: center;
+    font-size: 20px;
+    color: brown;
+}
+
+
+.location p {
+    color:crimson;
+    font-weight: 500;
+    text-indent: 20px;
+    text-shadow: 1px 1px 5px red;
+}
+
+.history {
+    margin: 20px 0;
+}
+.history h2 {
+    color: red;
+}
+
+.history h2 ~ p {
+    color:sienna;
+    text-transform:capitalize;
+}
+
+.history h2 + p {
+    font-family: MonsalGothic;
+    color:darkblue;
+}
+
+.history .history-desc {
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: cadetblue;
+}
+
+.history .history-title {
+    font-family: MonsalGothic;
+    text-decoration: line-through;
+    color: crimson;
+    letter-spacing: 2px;
+    text-transform: lowercase;
+}
+
+.fall {
+    text-align: center;
+}
+
+.fall h2 {
+    color:darkorchid;
+}
+
+.fall h2 + p {
+    color:darkgreen;
+    font-size: 20px;
+}
+
+.fall .fall-desc {
+    text-transform: uppercase;
+    color:blanchedalmond;
+}
+
+.architecture h2 {
+    color:hotpink; 
+    text-align: left;
+}
+
+.architecture h2 + p {
+    color:mediumslateblue;
+    text-decoration: line-through;
+    text-shadow: 1px 1px 5px red;
+    color:olive;
+}
+
+.architecture .arch-desc {
+    text-decoration: none;
+    color:lightseagreen;
+    text-transform: capitalize;
+    text-indent: 5px;
+} 
+
+.religion h2 {
+    font-size: 25px;
+}
+
+.religion > p {
+    font-style: italic;
+    text-decoration: underline;
+    text-indent: 15px;
+    letter-spacing: 2px;
+}
+
+.religion .religion-desc {
+    color:beige;
+}
+
+.culture h2{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 20px;
+    color:mediumpurple;
+    text-decoration: line-through;
+
+}
+
+.culture h2 + p {
+    font-family: MonsalGothic;
+    font-size: 15px;
+    color:lightseagreen;
+    text-transform: uppercase;
+}
+
+.culture p {
+    color:mediumblue;
+}
+
+.art h2 {
+    font-size: 25px;
+    text-transform: lowercase;
+    text-decoration: underline;
+    color:rosybrown;
+
+}
+
+.art p {
+    font-family: MonsalGothic;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 5px rosybrown;
+    
+}
+
+
+
+
+
+
+
